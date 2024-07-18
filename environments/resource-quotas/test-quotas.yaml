@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: test-quota
+  namespace: testing
+spec:
+  hard:
+    cpu: "4"
+    memory: 8Gi
